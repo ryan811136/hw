@@ -3,65 +3,81 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>楊子青簡介20230919b</title>
+	<title>黃于倫的基本介紹</title>
+
 	<style type="text/css">
-		* { font-family:"標楷體"; margin-left:auto; margin-right:auto;}
-		h1 {color:blue; font-size:60px;}
-		h2 {color:#9393FF; font-size:40px;}
+		* { 
+			font-family: "標楷體"; }
+
+		header { 
+			font-size: 36px;
+			color: red; }
+
+		.col-lg-4 {
+			border: 1px solid; }
+
 	</style>
 
-
-	<script>
-		function change1() {
-  			document.getElementById("pic").src = "/static/mountain.jpg";
-  			document.getElementById("h2text").innerText = "靜宜資管";
-		}
-
-		function change2() {
-  			document.getElementById("pic").src = "/static/cliff.jpg";
-  			document.getElementById("h2text").innerText = "Tzyy-Ching Yang";
-		}
-	</script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
 
 </head>
 <body>
-	<table width="70%">
-		<tr>
-			<td>
-				<img src="/static/cliff.jpg" width="110%" id="pic" onmouseover="change1()" onmouseout="change2()"></img>
-			</td>>
+	<nav class="navbar navbar-expand-md bg-danger navbar-dark">
+	<a class="navbar-brand" href="#">MENU</a>
 
-			<td>
-				<h1>楊子青</h1>
-				<h2 id="h2text">Tzyy-Ching Yang</h2>
-			</td>
-		</tr>
-	</table>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+		<span class="navbar-toggler-icon"></span>
+	</button>
 
+	<div class="collapse navbar-collapse" id="collapsibleNavbar">
+		<ul class="navbar-nav">
+			<li class="nav-item"><a class="nav-link" href="#aboutme">關於我</a></li>
+			<li class="nav-item"><a class="nav-link" href="#bookmark">喜愛佳句</a></li>
+			<li class="nav-item"><a class="nav-link" href="#youtube">推薦影片</a></li>
+		</ul>
+	</div>
+	</nav>
 
-	<table width="70%" border="1">
-		<tr>
-			<td>
-				個人網頁：<a href="https://www1.pu.edu.tw/~tcyang">https://www1.pu.edu.tw/~tcyang</a><br>
-				FB：<a href="https://www.facebook.com/tcyang1971" target="_blank">https://www.facebook.com/tcyang1971</a><br>
-				Tel: <a href="tel:0426328001,18110">04-26328001#18110</a><br>
-				E-Mail: <a href="mailto:tcyang@pu.edu.tw">tcyang@pu.edu.tw</a><br>
-			</td>
+	<main class="container-fluid bg-secondary text-white text-center">
 
-			<td>
-				大象席地而坐電影配樂<br>
-				<audio controls>
-					<source src="/static/elephant.mp3" type="audio/mP3">
-				</audio><br>
-			</td>
+		<nav>
+			<h1><a href=https://gjundisk01.blob.core.windows.net/it360/worker360/Blog/blog_20230322/15945255_MotionElements_personal-holy-bible-study.jpg
+				" class="text-reset text-decoration-none text-white bg-warning" target="_blank" id="I">黃于倫 (YU-LUN HUANG)</a></h1>
+			<h2><a href="https://www.pu.edu.tw/" class="text-reset text-decoration-none text-white bg-info" id="PU">靜宜大學</a>
+			 / <a href="https://csim.pu.edu.tw/" class="text-reset text-decoration-none text-white bg-info" id="CSIM">資訊管理學系</a></h2>
+			 <br>
+		</nav>
 
-			<td>
-				不要去臺灣<br>
-				<iframe src="https://www.youtube.com/embed/pW88QFpHXa8" allowfullscreen></iframe>
-			</td>
-		</tr>
-	</table>
+		<img src="https://cw1.tw/CW/images/article/201703/article-58bcbb2cd492e.jpg" alt="照片" width="300" class="img-fluid rounded-circle" id="PICTURE"> 
+		<br><br><br>
 
+		<div class="row">
+			<session id="aboutme" class="col-lg-4">
+				<header><a class="text-reset text-decoration-none bg-white">關於我</header>
+				<h3><font color="lightpink">系級：</font>資訊管理學系二A</h3>
+				<h3><font color="lightpink">學號:</font> 411146805</h3>
+				<h3><a href="mailto:s1114680@gm.pu.edu.tw" class="text-reset text-decoration-none text-black "><font color="lightpink">E-Mail:</font>s1114680@gm.pu.edu.tw<br>( ⇈點擊寄送郵件✉ )</a></h3>
+
+			</session>
+
+			<article id="bookmark" class="col-lg-4">
+				<header><a class="text-reset text-decoration-none bg-white">喜愛佳句</header> 
+				<h3>只有剛強的人，才有神聖的意志。只有戰鬥的人，才能獲得勝利</h3>
+			</article>
+			
+			<aside id="youtube" class="col-lg-4">
+				<header><a class="text-reset text-decoration-none bg-light">推薦影片</header>
+				<div class="embed-responsive embed-responsive-16by9">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/UX_pK8LX49U?si=CzohCdNLMdyj14pz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+				</div>
+			</aside>
+		</div><br><br>
+		
+		<footer>
+			Copyright ©  黃于倫. All Rights Reserved.
+		</footer>
 </body>
 </html>

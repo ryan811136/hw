@@ -1,14 +1,54 @@
-<!DOCTYPE html>
-
-<html lang="zh-TW">
-
+<html>
 <head>
+<title>個人履歷</title>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap');
 
-* { font-family: "標楷體"; }
+body {
+	background-image:url('https://img.ltn.com.tw/Upload/art/page/800/2017/08/02/254.jpg');
+    background-size:  cover;
+    background-repeat: no-repeat;
+    font-family:'Noto Sans TC',sans-serif;
+}
 
-h1 { color: blue; font-size: 40pt;}
+.resume {
+	width:45%;
+	float:Left;
+	border: 1px solid #ccc;
+	padding: 10px;
+	box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+	border-radius: 10px;
+	background:rgba(255,255,255,0.8);
+}
+
+.resume h2 {
+  border-bottom:1px solid black;
+}
+
+.resume p {
+	Line-height:1.5;
+}
+
+.future {
+	width:50%;
+	float:right;
+	border: 1px solid #ccc;
+	padding: 10px;
+	box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+	border-radius: 10px;
+	background:rgba(255,255,255,0.8);
+}
+
+.future h2 {
+   border-bottom:1px solid black;
+}
+
+.future p {
+   Line-height:1.5;
+}
+
+
 
 </style>
 
@@ -16,12 +56,69 @@ h1 { color: blue; font-size: 40pt;}
 
 <body>
 
-<div>
+<div class="resume">
+<h2>個人履歷</h2>
 
-<h1>歡迎 {{ name }} 蒞臨</p>
+<font size="5" face="bold"><p>個人簡介:<br>姓名:黃于倫<br>生日:2003/12/01</p>
+<p>學歷:<br>靜宜大學資訊管理學系<br></p>
+
+<p>性格:<br>團隊合作、認真、開朗、好溝通<br></p>
+
+<p>學習技能:<br>程式:Python,Java,C++,Scratch<br></p>
+
+</font>
 
 </div>
 
-</body>
+<div class="future">
 
+<h2>為什麼適合這份工作?</h2>
+
+<font size="4" face="bold">
+	<p>1:我的專業是資訊管理,因此對電腦及系統等都有更深的認識,可以更快的進入狀況並且來執行需要處理的事情。<br>
+        
+       2:我能夠與客戶進行良好的溝通,並了解問題的原因,使問題能最簡單化,我也可和同事們和諧相處,共同完成團隊合作,讓公司一起變得更好。<br>
+
+</p>
+
+</font>
+
+</div>
+
+<div class="future">
+
+<h2>求學經歷</h2>
+
+<img src="https://ai4kids.ai/cdn/shop/articles/20230627_content_009_main-scaled.webp?v=1687878363" width="120px" style="float:Left;border-radius:10px; margin-right:10px;">
+
+<font size="4" face="bold"><p>高中選修了許多關於程式的課程,像是設計手機程式等,而大學更是修了物聯網、程式設計及資訊管理導論等課程,平時也會看一些相關的書籍來精進自己。</p>
+
+</font>
+
+</div>
+
+<div class="future">
+
+<h2>未來發展計畫</h2>
+
+<img src="https://miro.medium.com/v2/resize:fit:786/format:webp/1*bEBKb1EIfzGg4fWmWx27sg.png" width="120px" style="float:right; border-radius:10px;margin-left:10px;">
+
+<font size="4" face="bold"><p>目標:MIS相關人員及工程師</p>
+
+<p>計畫在大學課餘時間進行實習和打工,累積經驗並提升抗壓性,並在之後向上考取研究所,持續精進自己,且在空暇之餘向教授老師討教問題,讓自己更進步。<br>
+
+<br>未來則希望能從事mis相關工作<br></p>
+</div><br><br>
+
+<br><footer>
+            Copyright ©  黃于倫. All Rights Reserved.
+</footer><br>
+        
+      <br><font size="6">
+          <div style=" width: 150px; height:30px; border-color: RBG(166,172,175); padding: 5px; text-align: center;">
+          <font size="6">
+          <a herf="/">回首頁<br></div>
+          </font></a>
+          
+</body>
 </html>
